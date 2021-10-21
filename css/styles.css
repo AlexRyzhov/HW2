@@ -177,12 +177,12 @@ body {
     color: var(--pirmary-background-color);
 }
 
-.footer-info {
+.footer-info-link {
     color: var(--primary-text-color);
-    text-decoration: none;
+    font-style: normal;
 }
 
-.footer-info:focus, .footer-info:hover {
+.footer-info-link:focus, .footer-info-link:hover {
     color: var(--accent);
 }
 
@@ -215,10 +215,11 @@ body {
     letter-spacing: 0.03em;
 }
 
-.filter-button:hover{
+.filter-button:hover {
     color: var(--pirmary-background-color);
     background-color: var(--accent);
 }
+
 .our-work-title {
     color: var(--secondary-text-color);
     font-weight: Bold;
