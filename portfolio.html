@@ -15,15 +15,14 @@
   </head>
   <body>
     <!--Шапка-->
+    <header>
       <!--Навигация сайта-->
       <nav>
-        <ul class="site-nav list">
-          <li>
-            <a href="#" class="logo"><span>Web</span>Studio</a>
-          </li>
-          <li class="title"><a href="index.html">Cтудия</a></li>
-          <li class="title"><a href="#">Портфолио</a></li>
-          <li class="title"><a href="#">Контакты</a></li>
+        <a href="#" class="logo"><span>Web</span>Studio</a>
+        <ul class="nav list">
+          <li><a href="index.html" class="nav-title">Cтудия</a></li>
+          <li><a href="portfolio.html" class="nav-title-page">Портфолио</a></li>
+          <li><a href="#" class="nav-title">Контакты</a></li>
         </ul>
       </nav>
       <!--Авторизация на сайте-->
@@ -34,7 +33,7 @@
           >
         </li>
         <li>
-          <a href="tel:+38 099 111 11 11" class="auth-nav-link"
+          <a href="tel:+380991111111" class="auth-nav-link"
             >+38 099 111 11 11</a
           >
         </li>
@@ -42,22 +41,26 @@
     </header>
 
     <main>
-      <h1>Портфолио</h1>
-      <!--Фильтр-->
       <section>
-        <h2>Фильтр</h2>
+        <h1 class="visually-hidden">Портфолио</h1>
+        <!--Фильтр-->
+        <h2 class="visually-hidden">наши работы</h2>
         <ul class="filter list">
-          <li><button class="filter-button" type="button">Веб-сайты</button></li>
-          <li><button class="filter-button" type="button">Приложения</button></li>
-          <li><button class="filter-button" type="button">Все</button></li>
+          <li>
+            <button class="filter-button-page" type="button">Все</button>
+          </li>
+          <li>
+            <button class="filter-button" type="button">Приложения</button>
+          </li>
+          <li>
+            <button class="filter-button" type="button">Веб-сайты</button>
+          </li>
           <li><button class="filter-button" type="button">Дизайн</button></li>
-          <li><button class="filter-button" type="button">Маркетинг</button></li>
+          <li>
+            <button class="filter-button" type="button">Маркетинг</button>
+          </li>
         </ul>
-        
-      </section>
-      <!--Наши работы-->
-      <section>
-        <h2>наши работы</h2>
+        <!--Наши работы-->
         <ul class="our-work list">
           <li>
             <a href="#" class="our-work-heading">
@@ -161,7 +164,7 @@
         </ul>
       </section>
     </main>
-     <!--Подвал-->
+    <!--Подвал-->
     <footer class="footer">
       <a href="#" class="logo-footer"><span>Web</span>Studio</a>
       <address>
@@ -173,7 +176,7 @@
             >
           </li>
           <li>
-            <a href="tel:+38 099 111 11 11" class="footer-info-link"
+            <a href="tel:+380991111111" class="footer-info-link"
               >+38 099 111 11 11</a
             >
           </li>

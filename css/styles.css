@@ -18,9 +18,22 @@ body {
     list-style: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /*Навигация сайта*/
 
-.site-nav .title a {
+.nav-title {
     color: var(--secondary-text-color);
     font-family: raleway;
     text-decoration: none;
@@ -30,14 +43,24 @@ body {
     Letter-spacing: 0.02em;
 }
 
-.site-nav .title a:hover, .site-nav .title a:focus {
+.nav-title-page {
+    color: var(--accent);
+    font-family: raleway;
+    text-decoration: none;
+    font-weight: 500;
+    Font-size: 14px;
+    Line-height: 1.33;
+    Letter-spacing: 0.02em;
+}
+
+.nav-title:hover, .nav-title:focus {
     color: var(--accent);
 }
 
 .logo {
     color: var(--secondary-text-color);
     Font-family: Raleway, sans-serif;
-    font-weight: Bold;
+    font-weight: 700;
     Font-size: 26px;
     Line-height: 1.19;
     text-decoration: none;
@@ -52,7 +75,7 @@ body {
 .auth-nav a {
     color: var(--primary-text-color);
     text-decoration: none;
-    font-weight: Medium;
+    font-weight: 500;
     Font-size: 14px;
     Line-height: 1.33;
     Letter-spacing: 0.02em;
@@ -76,10 +99,15 @@ body {
     Font-size: 44px;
     Line-height: 1.37;
     Letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.page-title {
+    text-transform: uppercase;
 }
 
 .button-heading {
-    font-weight: Bold;
+    font-weight: 700;
     Font-size: 16px;
     Line-height: 1.9;
     background-color: var(--accent);
@@ -92,16 +120,14 @@ body {
 
 .button-heading:hover, .button-heading:focus {
     background-color: var(--secondary-background-color);
-    color: var(--secondary-text-color);
+    color: var(--accent);
 }
 
 /*Наши преимущества*/
 
-
-
 .our-benefits-list {
     color: var(--secondary-text-color);
-    font-weight: Bold;
+    font-weight: 700;
     Font-size: 14px;
     Line-height: 1.33;
     text-transform: uppercase;
@@ -115,10 +141,11 @@ body {
 /*Наша дейстельность*/
 
 .our-activity-title {
-    font-weight: Bold;
+    font-weight: 700;
     Font-size: 36px;
     Line-height: 1.17;
     color: var(--secondary-text-color);
+    text-align: center;
 }
 
 /*Наша команда*/
@@ -132,10 +159,11 @@ body {
 }
 
 .our-team-title {
-    font-weight: Bold;
+    font-weight: 700;
     Font-size: 36px;
     Line-height: 1.17;
     color: var(--secondary-text-color);
+    text-align: center;
 }
 
 .team-members {
@@ -143,15 +171,17 @@ body {
 }
 
 .team-members-title {
-    font-weight: Medium;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     color: var(--secondary-text-color);
+    text-align: center;
 }
 
 .team-members-text {
     font-size: 16px;
     line-height: 1.19;
+    text-align: center;
 }
 
 /*Подвал*/
@@ -163,7 +193,7 @@ body {
 .logo-footer {
     color: var(--pirmary-background-color);
     Font-family: Raleway, sans-serif;
-    font-weight: Bold;
+    font-weight: 700;
     Font-size: 26px;
     Line-height: 1.19;
     text-decoration: none;
@@ -180,15 +210,17 @@ body {
 .footer-info-link {
     color: var(--primary-text-color);
     font-style: normal;
+    text-decoration: none;
 }
 
 .footer-info-link:focus, .footer-info-link:hover {
-    color: var(--accent);
+    color: var(--pirmary-background-color);
 }
 
 .address-footer {
     font-size: 14px;
     line-height: 1.17;
+    font-style: normal;
 }
 
 /*-----------------------------------------------*/
@@ -220,9 +252,21 @@ body {
     background-color: var(--accent);
 }
 
+.filter-button-page {
+    background-color: var(--accent);
+    color: var(--pirmary-background-color);
+    cursor: pointer;
+    border: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
 .our-work-title {
     color: var(--secondary-text-color);
-    font-weight: Bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     Letter-spacing: 0.06em;
