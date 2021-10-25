@@ -10,7 +10,7 @@
 body {
     background-color: var(--pirmary-background-color);
     color: var(--primary-text-color);
-    font-family: roboto, raleway, sans-serif;
+    font-family: roboto, sans-serif;
     letter-spacing: 0.03em;
 }
 
@@ -35,7 +35,6 @@ body {
 
 .nav-title {
     color: var(--secondary-text-color);
-    font-family: raleway;
     text-decoration: none;
     font-weight: 500;
     Font-size: 14px;
@@ -45,7 +44,6 @@ body {
 
 .nav-title-page {
     color: var(--accent);
-    font-family: raleway;
     text-decoration: none;
     font-weight: 500;
     Font-size: 14px;
@@ -95,15 +93,16 @@ body {
 
 .page-heading {
     background-color: var(--third-background-color);
-    color: var(--pirmary-background-color);
-    Font-size: 44px;
-    Line-height: 1.37;
-    Letter-spacing: 0.06em;
     text-align: center;
 }
 
 .page-title {
     text-transform: uppercase;
+    color: var(--pirmary-background-color);
+    Font-size: 44px;
+    font-weight: 900;
+    Line-height: 1.37;
+    Letter-spacing: 0.06em;
 }
 
 .button-heading {
@@ -119,9 +118,9 @@ body {
 }
 
 .button-heading:hover, .button-heading:focus {
-    background-color: var(--secondary-background-color);
-    color: var(--accent);
+    background-color: rgba(33, 150, 243, 0.9);
 }
+
 
 /*Наши преимущества*/
 
@@ -208,7 +207,7 @@ body {
 }
 
 .footer-info-link {
-    color: var(--primary-text-color);
+    color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     text-decoration: none;
 }
