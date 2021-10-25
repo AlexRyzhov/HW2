@@ -118,9 +118,8 @@ body {
 }
 
 .button-heading:hover, .button-heading:focus {
-    background-color: rgba(33, 150, 243, 0.9);
+    background-color: #188CE8
 }
-
 
 /*Наши преимущества*/
 
